@@ -1,0 +1,47 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: aliceblue;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Header{
+    display: flex;
+    justify-content: center;
+}
+
+.Body{
+    display: flex;
+    justify-content: center;
+}
+
+.pokeImg{
+    width: 150px;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.pokeIndiv{
+    margin-bottom: 20px;
+    border: 1px black solid;
+    background-color: #14869d;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+} 
+
+::marker{
+  color: #14869d;
+}
